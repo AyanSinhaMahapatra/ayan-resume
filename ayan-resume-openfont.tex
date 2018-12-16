@@ -1,0 +1,236 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Ayan}{Sinha Mahapatra}{ \urlstyle{same}\href{https://ayansinhamahapatra.github.io/}{ayansinhamahapatra.github.io}\\
++919674426869 | \href{mailto:ayansmahapatra@gmail.com}{ayansmahapatra@gmail.com}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{Jadavpur University}
+\descript{B.E. in Electronics And TeleCommunications Engg. }
+\location{May 2016 - Present | Kolkata, India}
+\location{ Cum. CGPA: 8.1 / 10 }
+\sectionsep
+
+\subsection{Bidhannagar High School}
+Higher Secondary Exam \\
+\location{ May 2016 |  Kolkata, India}
+\location{Marks Percentage 87.40 }
+\sectionsep
+
+\subsection{RKMV Purula}
+Secondary Exam \\
+\location{ May 2014 |  Purulia, India}
+\location{Marks Percentage 91.90 }
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Github:// \href{https://github.com/ayansinhamahapatra}{\bf ayansinhamahapatra} \\
+LinkedIn://  \href{https://www.linkedin.com/in/ayansinhaju/}{\bf Ayan Sinha Mahapatra} \\
+Twitter://  \href{https://twitter.com/ayansm23}{\bf @ayansm23} \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+
+\subsection{Undergraduate}
+Data Structures And Algorithms \\
+C Programming And Numerical Analysis \\
+Computer Architecture \\
+Microrpocessors And Microcontrollers + Practicum \\
+Control Systems + Practicum \\
+Analog Systems + Practicum \\
+Digital Logic + Practicum \\
+Analog and Digital Comm. + Practicum \\ 
+\sectionsep
+
+\subsection{MOOC Coursera}
+Neural Networks \\
+Machine Learning \\
+Computational Neuroscience \\
+Deep Learning Specialization \\
+Data Science with Python Specialization \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\location{Over 1000 lines:}
+C \textbullet{} Python \textbullet{} Matlab \\
+\location{Familiar:}
+HTML \textbullet{} Lua \textbullet{} Assemmbly \\
+\location{C Libraries:}
+Eigen \textbullet{} MLPack \\
+\location{Python Libraries:}
+Tensorflow \textbullet{} Keras \textbullet{} NumPy \textbullet{} Pandas \textbullet{} Matplotlib \textbullet{} Scikit-Learn \textbullet{} OpenCV \textbullet{} Django \textbullet{} Flask
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{Signature Verification and Full Stack Developement}
+\descript{| Hackathon Participant }
+\location{Nov 2017 - July 2018 | Mumbai, India}
+With \textbf{\href{https://github.com/Sayan98}{Sayan Goswami}}, I've participated in the SBI Hackathon 2017, where we successfully developed a Signature Verification System (Using Siamese ConvNets) and Analytics Dashboard/Cloud Hosting. We participated in a Proof Of Concept Demonstration at SBI Global IT Center, Mumbai and went on to win the Hackathon. \textbf{\href{https://github.com/AyanSinhaMahapatra/AutoSIGN}{ [GitHub Link] }}
+\sectionsep
+
+\runsubsection{Cubesolving}
+\descript{| Personal Project }
+I was working on a Cube Solving Program (without any external standard Cube Libraries, i.e. from scratch). \textbf{\href{https://github.com/AyanSinhaMahapatra/CubeSolving}{ [GitHub Link] }}
+\sectionsep
+
+\runsubsection{Forum Website}
+\descript{| Personal Project }
+I worked on a Website Development Project Using Python-Django with Full Forum/Social Network like features for a University Club. 
+\textbf{\href{https://github.com/AyanSinhaMahapatra/Univnet_Beta}{ [GitHub Link 1] }} \textbf{\href{https://github.com/AyanSinhaMahapatra/AnswerIt}{ [GitHub Link 2] }}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Research}
+\runsubsection{JU Artificial Intelligence Lab}
+\descript{| Ungergraduate Researcher}
+\location{Nov 2018 – Present | Kolkata, India}
+Working under \textbf{\href{https://www.amitkonar.com/}{Prof Amit Konar}} on applications of Fuzzy Random Forest Algorithms for Circuit/Plant Fault Detection. I'll be working on Neuroscience problems from this January. 
+\sectionsep
+
+\runsubsection{ISI Kolkata ECSU Dept.}
+\descript{| Undergraduate Researcher}
+\location{Dec 2017 – Present | Kolkata, India}
+I have been working under the guidance of \textbf{\href{https://www.isical.ac.in/~swagatam.das/}{Prof Swagatam Das}}. The Research Problem is Based on applications of Evolutionary Algorithms (a VNS variant of Genetic Algorithms) on an Integer Programming problem \textbf{\href{https://github.com/AyanSinhaMahapatra/Gene_Algos}{ [GitHub Link] }}. I've also worked on advancements in Differential Evolution Algorithms (specifically SHADE/L-SHADE).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     ACHEIVEMENTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Achievements} 
+\begin{tabular}{rll}
+2018	     & Winning team/~1500 teams  & SBI Automate For Bank Hackathon 2017\\
+2017	     & 4th Team in College  & ICPC Online Round\\
+2016	     & Ranked 306  & WBJEE\\
+\end{tabular}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Clubs And Societies
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Clubs and Societies}
+ 
+\runsubsection{TEDxJadavpurUniversity}
+\descript{| Tresurer and OC Member}
+Worked as an organizer at the 2018 Edition of TEDxJadapurUniversity, and in the senior team for the 2019 edition.  
+\sectionsep
+
+\runsubsection{AI and Kaggle University Club}
+\descript{| Co-Founder}
+Co-founded the club with my classmate \textbf{\href{https://github.com/Sayan98}{Sayan Goswami}}. \\
+\sectionsep 
+
+\runsubsection{Robotics Club}
+\descript{| Volunteer }
+Organized an Image Processing/Machine Learning Workshop, participated in Robotics Competitions. 
+\sectionsep
+
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
