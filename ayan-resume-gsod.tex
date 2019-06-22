@@ -1,0 +1,255 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Ayan}{Sinha Mahapatra}{ \urlstyle{same}\href{https://ayansinha.dev}{ayansinha.dev} | \href{mailto:ayansmahapatra@gmail.com}{ayansmahapatra@gmail.com}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{Jadavpur University}
+\descript{B.E. in Electronics And TeleCommunications Engg. }
+\location{May 2016 - Present | Kolkata, India  
+Senior Year | Batch of 2020}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+\href{https://ayansinha.dev/blog/}{\bf Blog} \\
+\href{https://ayansinha.dev/ayan/}{\bf Portfolio} \\
+Github:// \href{https://github.com/ayansinhamahapatra}{\bf ayansinhamahapatra} \\
+LinkedIn://  \href{https://www.linkedin.com/in/ayansinhaju/}{\bf Ayan Sinha Mahapatra} \\
+Twitter://  \href{https://twitter.com/ayansm23}{\bf @ayansm23} \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Documentation}
+Sphinx \textbullet{} reStructuredText \textbullet{} Jekyll \\
+ReadTheDocs \textbullet{} Markdown \\
+\sectionsep
+
+\subsection{Programming}
+\location{Languages:}
+C \textbullet{} Python \textbullet{} Matlab \textbullet{} Lua \textbullet{} Assembly \\ 
+\location{Python Libraries:}
+Tensorflow \textbullet{} Keras \textbullet{} NumPy \textbullet{} Pandas
+Matplotlib \textbullet{} Scikit-Learn \textbullet{} OpenCV \textbullet{} Django \textbullet{} Flask \\
+\location{C++ Libraries:}
+Eigen \textbullet{} Boost \textbullet{} MLPack 
+\sectionsep
+
+\subsection{Neuroscience}
+\location{Software:}
+Brainvison Recorder/Analyzer\\ OpenVIBE \textbullet{} pyCorder\\
+\location{Libraries:}
+MNE-Python \textbullet{} EEGLab
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+
+\subsection{Undergraduate}
+Data Structures And Algorithms \\
+C Programming And Numerical Analysis \\
+Computer Architecture \\
+Embedded Systems\\
+System Software \\
+Microprocessors And Microcontrollers\\
+\sectionsep
+
+\subsection{MOOCs}
+Neural Networks \\
+Machine Learning \\
+Computational Neuroscience \\
+Deep Learning Specialization \\
+Data Science with Python Specialization \\
+Time Series Data (EEG) Processing \\
+Introduction to Brain Computer \\
+Interfaces Design\\
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    Technical Writing/Documentation & OSS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Technical Writing/Documentation}
+\runsubsection{Documentation Developement @ AboutCode}
+\descript{| Open-Source Contributions }
+Reorganizing the structure of docs at \textbf{\href{https://aboutcode.readthedocs.io/en/latest/}{aboutcode.readthedocs.io}} from GitHub wiki and writing tests with Travis-CI. 
+\textbf{\href{https://ayansinha.dev/blog/archive.html?tag=OSS}{ [Blog Link] }}
+\textbf{\href{https://ayansinha.dev/2019/06/15/index-oss.html}{ [Blog Index Page] }} 
+\sectionsep
+
+\runsubsection{NeuroScience Related Technical Writings}\\
+Blog Posts on EEG Processing, How to start with Computational Neuroscience and more.
+\textbf{\href{https://ayansinha.dev/blog/archive.html?tag=Neuroscience}{ [Blog Link] }} 
+\textbf{\href{https://ayansinha.dev/2019/06/15/index-neuro.html}{ [Blog Index Page] }} 
+\sectionsep
+
+\runsubsection{Kaggle Related Technical Writings}\\
+Blog Posts on Kaggle related topics, links to Kaggle Kernels and more.
+\textbf{\href{https://ayansinha.dev/blog/archive.html?tag=Kaggle}{ [Blog Link] }} 
+\textbf{\href{https://ayansinha.dev/2019/06/15/index-kaggle.html}{ [Blog Index Page] }} 
+\sectionsep
+
+\runsubsection{General Technical Writings}\\
+General technical writings on various topics like Git, Django, Flask etc.
+\textbf{\href{https://ayansinha.dev/blog/archive.html?tag=Tech_Writings}{ [Blog Link] }} 
+\textbf{\href{https://ayansinha.dev/2019/06/15/index-tech-writing.html}{ [Blog Index Page] }}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{Signature Verification and Full Stack Developement}
+\descript{| Hackathon Participant }
+\location{Nov 2017 - July 2018 | Mumbai, India}
+With \textbf{\href{https://github.com/Sayan98}{Sayan Goswami}}, developed a Signature Verification System and a portal for The State Bank of India. \textbf{\href{https://github.com/AyanSinhaMahapatra/AutoSIGN}{ [GitHub Link] }}
+\sectionsep
+
+\runsubsection{Cubesolving}
+\descript{| Personal Project }
+With \textbf{\href{https://github.com/arnav-mandal1234}{Arnav Mandal}}, developed a Cube Solving Program without any external standard Cube Libraries, i.e. from scratch. \textbf{\href{https://github.com/AyanSinhaMahapatra/CubeSolving}{ [GitHub Link] }}
+\sectionsep
+
+\runsubsection{Forum Website}
+\descript{| Personal Project }
+Full-Stack Forum/Social-Network sites based on Django.
+\textbf{\href{https://github.com/AyanSinhaMahapatra/Univnet_Beta}{ [GitHub Link 1] }} \textbf{\href{https://github.com/AyanSinhaMahapatra/AnswerIt}{ [GitHub Link 2] }}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Internships/Research}
+\runsubsection{National Aerospace Labs, Systems Div.}
+\descript{| Research Intern}
+\location{May 20th 2019 – July 12th 2019 | Bangalore, India}
+Working on a EEG-Processing/Deep-Learning based online Brain Computer Interface for Drone/UAV Contol Applications. 
+\textbf{\href{https://github.com/AyanSinhaMahapatra/bci-nal}{ [GitHub Link] }}
+\sectionsep
+
+\runsubsection{JU Artificial Intelligence Lab}
+\descript{| Ungergraduate Researcher}
+\location{Nov 2018 – Present | Kolkata, India}
+Working under \textbf{\href{https://www.amitkonar.com/}{Prof Amit Konar}} on EEG based BCI systems, Fault Detection and Deep Learning.  
+\textbf{\href{https://github.com/AyanSinhaMahapatra/FaultDetectionProjects}{ [GitHub Link] }}
+\sectionsep
+
+\runsubsection{ISI Kolkata ECSU Dept.}
+\descript{| Undergraduate Researcher}
+\location{Dec 2017 – Present | Kolkata, India}
+Worked under \textbf{\href{https://www.isical.ac.in/~swagatam.das/}{Prof Swagatam Das}} on Non-Convex Optimization and Deep Learning.
+\textbf{\href{https://github.com/AyanSinhaMahapatra/Gene_Algos}{ [GitHub Link] }}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Clubs And Societies
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Volunteer/Organizer}
+\runsubsection{TEDxJadavpurUniversity}
+\descript{| Tresurer and OC Member}
+Worked as an organizer at the 2018 Edition of TEDxJadapurUniversity, and in the senior team for the 2019 edition.  
+\textbf{\href{https://tedxjadavpuruniversity.com/}{ [Website Link] }}
+\textbf{\href{https://tedxjadavpuruniversity.com/assets/Brochure.pdf}{ [Brochure] }}
+\sectionsep
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
