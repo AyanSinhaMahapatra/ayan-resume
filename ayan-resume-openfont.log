@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2019.6.20)  21 JUN 2019 20:46
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2019.6.20)  20 AUG 2019 21:27
  restricted system commands enabled.
 **ayan-resume-openfont.tex
 (./ayan-resume-openfont.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.135 seconds
+luaotfload | main : initialization completed in 0.137 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (./deedy-resume-openfont.cls
 Document Class: deedy-resume-openfont 2014/04/30 CV class
@@ -1015,45 +1015,41 @@ luaotfload | aux : no font with id 44
 LaTeX Font Warning: Font shape `TU/Lato-Bol(0)/bx/n' undefined
 (Font)              using `TU/Lato-Bol(0)/m/n' instead on input line 86.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 206.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 206.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 236.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 239.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 236.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 239.
 
 (./ayan-resume-openfont.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 236.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 236.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 239.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 239.
 Package rerunfilecheck Info: File `ayan-resume-openfont.out' has not changed.
-(rerunfilecheck)             Checksum: A7AAFED217237CF51AC782E99CCB2A3E;746.
+(rerunfilecheck)             Checksum: A8D401DFA30EBAC3CFB66F4F51A62D54;698.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 236.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 239.
 )
 
 Here is how much of LuaTeX's memory you used:
- 17262 strings out of 494480
+ 17271 strings out of 494480
  100000,552014 words of node,token memory allocated
  447 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 8 attribute, 56 glue_spec, 7 attribute_list
 , 1 write, 2 pdf_action nodes
-   avail lists: 2:1488,3:225,4:275,5:241,6:3188,7:913,8:81,9:227,10:17,11:312
- 20534 multiletter control sequences out of 65536+600000
- 71 fonts using 8264607 bytes
+   avail lists: 2:1436,3:227,4:271,5:259,6:3231,7:890,8:77,9:219,10:17,11:316
+ 20529 multiletter control sequences out of 65536+600000
+ 59 fonts using 7556135 bytes
  52i,11n,118p,518b,532s stack positions out of 5000i,500n,10000p,200000b,100000s
 <./fonts/lato/Lato-Reg.ttf><./fonts/lato/Lato-Bol.ttf><./fonts/raleway/Raleway-M
 edium.otf><./fonts/lato/Lato-Lig.ttf><./fonts/lato/Lato-Hai.ttf><./fonts/raleway
 /Raleway-ExtraLight.otf>
-Output written on ayan-resume-openfont.pdf (1 page, 55911 bytes).
+Output written on ayan-resume-openfont.pdf (1 page, 57166 bytes).
 
-PDF statistics: 130 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
- 16 named destinations out of 1000 (max. 131072)
- 113 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 129 PDF objects out of 1000 (max. 8388607)
+ 106 compressed objects within 2 object streams
+ 15 named destinations out of 1000 (max. 131072)
+ 105 words of extra memory for PDF output out of 10000 (max. 100000000)
 

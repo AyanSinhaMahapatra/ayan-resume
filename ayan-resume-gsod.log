@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2019.6.20)  22 JUN 2019 17:29
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2019.6.20)  20 AUG 2019 21:23
  restricted system commands enabled.
 **ayan-resume-gsod.tex
 (./ayan-resume-gsod.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.137 seconds
+luaotfload | main : initialization completed in 0.130 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (./deedy-resume-openfont.cls
 Document Class: deedy-resume-openfont 2014/04/30 CV class
@@ -1015,20 +1015,20 @@ luaotfload | aux : no font with id 44
 LaTeX Font Warning: Font shape `TU/Lato-Bol(0)/bx/n' undefined
 (Font)              using `TU/Lato-Bol(0)/m/n' instead on input line 85.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 255.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 251.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 255.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 251.
  (./ayan-resume-gsod.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 255.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 255.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 251.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 251.
 Package rerunfilecheck Info: File `ayan-resume-gsod.out' has not changed.
 (rerunfilecheck)             Checksum: 5252696FE92BF0F102F1EF337F5FE4CC;760.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 255.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 251.
 )
 
 Here is how much of LuaTeX's memory you used:
@@ -1037,17 +1037,17 @@ Here is how much of LuaTeX's memory you used:
  457 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 9 attribute, 56 glue_spec, 8 attribute_list
 , 1 write, 3 pdf_action nodes
-   avail lists: 2:1535,3:251,4:285,5:281,6:3208,7:893,8:95,9:222,10:17,11:321
+   avail lists: 2:1511,3:247,4:277,5:268,6:3125,7:870,8:91,9:222,10:17,11:318
  20532 multiletter control sequences out of 65536+600000
  63 fonts using 7731591 bytes
  52i,11n,118p,514b,532s stack positions out of 5000i,500n,10000p,200000b,100000s
 <./fonts/lato/Lato-Reg.ttf><./fonts/lato/Lato-Bol.ttf><./fonts/raleway/Raleway-M
 edium.otf><./fonts/lato/Lato-Lig.ttf><./fonts/lato/Lato-Hai.ttf><./fonts/raleway
 /Raleway-ExtraLight.otf>
-Output written on ayan-resume-gsod.pdf (1 page, 57627 bytes).
+Output written on ayan-resume-gsod.pdf (1 page, 57185 bytes).
 
-PDF statistics: 146 PDF objects out of 1000 (max. 8388607)
- 123 compressed objects within 2 object streams
+PDF statistics: 142 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
  16 named destinations out of 1000 (max. 131072)
  113 words of extra memory for PDF output out of 10000 (max. 100000000)
 

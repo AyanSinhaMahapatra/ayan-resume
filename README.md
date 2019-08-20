@@ -22,7 +22,7 @@ $ sudo apt install texlive-full
 This code was written in Ubuntu 18.04 Bionic Beaver using TexMaker. Before compiling remember to go to: 
 Options -> Configure Texmaker -> Quick Build -> Quick Build Command and choose XeLaTeX + View Pdf.
 
-## Resume updated on Dec 16 
+## Resume updated on August 20, 2019
 
 
-![ss1](https://github.com/AyanSinhaMahapatra/ayan-resume/blob/master/Resume-2018-12-17.png)
+![ss1](https://github.com/AyanSinhaMahapatra/ayan-resume/blob/master/resume-latest.png)
